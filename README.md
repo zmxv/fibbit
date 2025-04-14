@@ -12,6 +12,8 @@ This TypeScript library is a reference implementation of the Fibbit encoder and 
 4.  **Fibonacci Coding:** Run lengths are encoded using Fibonacci coding. Specifically, to encode an integer *n*, find the unique set of non-consecutive Fibonacci numbers that sum to *n*, represent these as a bitmask in reverse order (largest Fibonacci number last), and append a final `1` bit as a terminator.
 5.  **Decoding:** The decoder reads the first bit, then parses Fibonacci codes to determine the lengths of subsequent runs, alternating the bit value for each run.
 
+![fibbit](https://github.com/user-attachments/assets/6421fd8e-bb21-4410-a37f-930d026d3db9)
+
 ## Installation
 
 ```bash
