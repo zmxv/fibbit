@@ -1,0 +1,27 @@
+{
+  "name": "fibbit",
+  "version": "1.0.0",
+  "description": "Fibbit encoder and decoder in TypeScript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "example": "tsx src/example.ts",
+    "test": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "keywords": ["fibbit", "lossless", "compression", "encoding", "decoding", "bitstream", "rle", "fibonacci"],
+  "author": "Zhen Wang",
+  "homepage": "https://github.com/zmxv/fibbit",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zmxv/fibbit.git"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^3.1.1",
+    "tsx": "^4.19.3",
+    "typescript": "^5.3.3",
+    "vitest": "^3.1.1"
+  }
+}
